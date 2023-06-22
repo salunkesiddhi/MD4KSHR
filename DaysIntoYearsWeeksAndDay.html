@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <script>
+            document.writeln("<h2>[ Write a Java Script program to convert days into years, weeks and days ]</h2>");
+
+        document.writeln("<h4>number of days= 366</h4>");
+
+            var DAYS_IN_WEEK = 7;
+
+          function find(year,week,days) 
+          {
+           var year, week, days;
+           year = parseInt(number_of_days / 365);
+           week = parseInt((number_of_days % 365) / DAYS_IN_WEEK);
+           days = (number_of_days % 365) % DAYS_IN_WEEK;
+  
+           document.write("years = " + year + "<br/>");
+           document.write("weeks = " + week + "<br/>");
+           document.write("days = " + days + "<br/>");
+          }
+  
+        var number_of_days = 366;
+        find(number_of_days);
+
+        </script>
+    </head>
+</html>
