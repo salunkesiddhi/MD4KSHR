@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <script>
+        document.writeln("<h2>[to check whether the triangle is equilateral, isosceles or scalene triangle.]</h2>");
+
+        var a = 60;
+        var b = 70;
+        var c = 50;
+        document.writeln("<hr>1st angle is=" + a);
+        document.writeln("<br>2nd angle is=" + b);
+        document.writeln("<br>3rd angle is=" + c);
+
+
+        if (a == b && b == c && a == c) {
+            document.writeln("<br><br><b>TRIANGLE IS EQUILATERAL");
+        } else if (a == b || a == c || b == c) {
+            document.writeln("<b><br><br>TRIANGLE IS ISOSCELES");
+        } else if (a != b && b != c && a != c) {
+            document.writeln("<b><br><br>TRIANGLE IS SCALENE");
+        }
+
+    </script>
+</head>
+
+</html>

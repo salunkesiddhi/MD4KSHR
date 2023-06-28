@@ -1,0 +1,25 @@
+<html>
+
+<head>
+    <script>
+        document.writeln("<h2>[to input all sides of a triangle and check whether triangle is valid or not.]</h2>");
+
+        var a = 60;
+        var b = 60;
+        var c = 60;
+        document.writeln("<hr>first side=" + a);
+        document.writeln("<br>second side=" + b);
+        document.writeln("<br>third side=" + c);
+
+        var sum = a + b + c;
+
+        if (sum == 180 || a == b || b == c || a == c) {
+            document.writeln("<b><br><br>TRIANGLE IS VALID");
+        } else {
+            document.writeln("<b><br><br>TRIANGLE IS NOT VALID");
+        }
+
+    </script>
+</head>
+
+</html>
